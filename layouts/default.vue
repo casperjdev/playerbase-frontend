@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<h1>layout</h1>
+	<main class="h-svh flex justify-center items-center">
 		<slot />
-	</div>
+	</main>
 </template>
