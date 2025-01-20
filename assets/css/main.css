@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	font-family: 'Inter', serif;
+	font-family: 'Roboto Mono', serif;
 
 	background: rgb(0, 93, 4);
 	background: linear-gradient(

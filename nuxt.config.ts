@@ -14,9 +14,9 @@ export default defineNuxtConfig({
 	modules: ['@nuxtjs/fontaine'],
 	fontMetrics: {
 		fonts: [
-			'Inter',
+			'DM Mono',
 			{
-				family: 'Inter',
+				family: 'DM Mono',
 			},
 		],
 	},

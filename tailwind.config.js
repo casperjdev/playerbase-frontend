@@ -9,7 +9,11 @@ export default {
 		'./error.vue',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			transitionProperty: {
+				size: 'width, height',
+			},
+		},
 	},
 	plugins: [],
 };
