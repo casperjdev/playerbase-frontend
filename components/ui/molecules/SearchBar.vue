@@ -8,7 +8,6 @@ const query = ref('');
 <template>
 	<div class="space-y-8 flex flex-col">
 		<SearchBarInput v-model:model-value="query" />
-
 		<SearchBarSubmit :query="query" />
 	</div>
 </template>

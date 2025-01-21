@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 		},
 	},
 
-	modules: ['@nuxtjs/fontaine'],
+	modules: ['@nuxtjs/fontaine', '@nuxt/image'],
 	fontMetrics: {
 		fonts: [
 			'DM Mono',
@@ -19,5 +19,8 @@ export default defineNuxtConfig({
 				family: 'DM Mono',
 			},
 		],
+	},
+	app: {
+		pageTransition: { name: 'page', mode: 'out-in' },
 	},
 });

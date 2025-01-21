@@ -1,5 +1,5 @@
 <template>
-	<main class="h-svh flex justify-center items-center p-8">
+	<main class="h-svh flex flex-col justify-center items-center">
 		<slot />
 	</main>
 </template>
